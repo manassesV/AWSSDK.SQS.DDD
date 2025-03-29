@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.SQS", "SqsService\AWS.SQS.csproj", "{EDBFBACF-5393-418E-B179-5CEC1C136487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.CustomSecretManager", "AWS.CustomSecretManager\AWS.CustomSecretManager.csproj", "{2A25020E-FD37-4D23-A6BD-059F6574FD2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Aplication", "WSSDK.SQS.DDD.Aplication\AWS.Aplication.csproj", "{371793CF-CE3F-49BB-A219-8BC697B34751}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C1FE5DEC-ACA5-4811-A0CE-8DE13DBB124D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{152F199F-8DE7-4082-8E1C-A4792414377D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.SQS.Test", "AWS.SQS.Test\AWS.SQS.Test.csproj", "{A3F1AD42-C93E-46D9-B7F6-BC32A768A989}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDBFBACF-5393-418E-B179-5CEC1C136487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBFBACF-5393-418E-B179-5CEC1C136487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBFBACF-5393-418E-B179-5CEC1C136487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBFBACF-5393-418E-B179-5CEC1C136487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A25020E-FD37-4D23-A6BD-059F6574FD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A25020E-FD37-4D23-A6BD-059F6574FD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A25020E-FD37-4D23-A6BD-059F6574FD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A25020E-FD37-4D23-A6BD-059F6574FD2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371793CF-CE3F-49BB-A219-8BC697B34751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371793CF-CE3F-49BB-A219-8BC697B34751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371793CF-CE3F-49BB-A219-8BC697B34751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371793CF-CE3F-49BB-A219-8BC697B34751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F1AD42-C93E-46D9-B7F6-BC32A768A989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F1AD42-C93E-46D9-B7F6-BC32A768A989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F1AD42-C93E-46D9-B7F6-BC32A768A989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F1AD42-C93E-46D9-B7F6-BC32A768A989}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDBFBACF-5393-418E-B179-5CEC1C136487} = {C1FE5DEC-ACA5-4811-A0CE-8DE13DBB124D}
+		{2A25020E-FD37-4D23-A6BD-059F6574FD2E} = {C1FE5DEC-ACA5-4811-A0CE-8DE13DBB124D}
+		{371793CF-CE3F-49BB-A219-8BC697B34751} = {C1FE5DEC-ACA5-4811-A0CE-8DE13DBB124D}
+		{A3F1AD42-C93E-46D9-B7F6-BC32A768A989} = {152F199F-8DE7-4082-8E1C-A4792414377D}
+	EndGlobalSection
+EndGlobal
